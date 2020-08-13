@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, ’10.0’
+
+target ’Richness’ do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+	pod 'Alamofire'
+    	pod 'IQKeyboardManagerSwift'
+    	pod ‘NVActivityIndicatorView’
+       	pod 'MBProgressHUD'
+	pod 'SCLAlertView'
+    pod 'FZAccordionTableView', '~> 0.2.3'
+    pod 'PullToRefresher', '~> 3.0'
+    pod 'SDWebImage'
+    pod 'FBSDKCoreKit', '4.36.0'
+    pod 'FBSDKLoginKit', '4.36.0'
+    pod 'FacebookCore', '0.4'
+    pod 'FacebookLogin', '0.4'
+#    pod 'FacebookLogin'
+#    pod 'FacebookCore'
+    pod 'Player'
+   use_frameworks!
+end
